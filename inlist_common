@@ -28,7 +28,7 @@
 
       ! OUTPUT
       !photostep = 1000
-      profile_interval = 10
+      profile_interval = 5
       history_interval = 1
       !terminal_cnt = 10
       !write_header_frequency = 10

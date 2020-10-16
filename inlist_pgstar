@@ -251,8 +251,8 @@
                Mode_Prop_use_decorator = .false.
 
                ! file output
-               Mode_Prop_file_flag = .false.
-               Mode_Prop_file_dir = 'png'
+               Mode_Prop_file_flag = .true.
+               Mode_Prop_file_dir = 'mode'
                Mode_Prop_file_prefix = 'mode_prop_'
                Mode_Prop_file_interval = 5 ! output when `mod(model_number,Mode_Prop_file_interval)==0`
                Mode_Prop_file_width = -1 ! (inches) negative means use same value as for window
