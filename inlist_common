@@ -109,7 +109,15 @@
      delta_lgTeff_hard_limit = 0.005
      delta_lgL_limit = 0.005
 
+         use_dedt_form_of_energy_eqn = .true.
 
+         ! GYRE OUTPUT 
+         write_pulse_data_with_profile = .true.
+         pulse_data_format = 'GYRE'   
+	 
+	 ! BRUNT SMOOTHING
+	 num_cells_for_smooth_brunt_B = 3 ! 2
+	 threshold_for_smooth_brunt_B = 0d0 
 
 / ! end of controls namelist
 
